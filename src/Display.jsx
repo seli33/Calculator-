@@ -1,7 +1,7 @@
 function Display({value}){
     return(
         <div className="display">
-            <p>The value is {value}</p>
+            <p>Value is {value}</p>
         </div>
     );
 

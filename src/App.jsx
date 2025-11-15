@@ -5,17 +5,23 @@ import Display from './Display.jsx';
 
 function App() {
   const [input, setInput] = useState('');
+
   const handleButtonClick=(value)=>{
 
-    if (value == '='){
+    if (value == 'C'){
+      setInput('');
+    }
+
+    else if (value == '='){
       try{
-        setInput(eval(input).toString());
-      
-        }
+        setInput(eval(input));
+              }
       catch (error) {
                 setInput('Error');
         }
-        } else {
+        } 
+        
+    else {
             setInput(input + value);
         }
     };
