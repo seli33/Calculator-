@@ -1,23 +1,20 @@
-.button-panel{
-  border:8px;
-  display:flex;
 
-}
 .calculator{
-color:red;
- border: 1px solid #ccc;
-    border-radius: 10px;
-
-  
+  color:rgb(68, 43, 43);
+  border: 10px solid #a00b0b;
+  border-radius: 10px;
 
 }
 .button-panel {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 2fr);
 }
 .display {
-    background: #f0f0f0;
+    background: #fed7f8;
     padding: 20px;
     font-size: 2em;
-    text-align: right;
+    text-align: center;
+}
+button{
+  background: #f3f5e0;
 }
