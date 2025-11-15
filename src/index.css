@@ -1,7 +1,7 @@
 
 .calculator{
   color:rgb(68, 43, 43);
-  border: 10px solid #a00b0b;
+  border: 5px solid #a00b0b;
   border-radius: 10px;
 
 }
@@ -17,4 +17,6 @@
 }
 button{
   background: #f3f5e0;
+    margin: 5px;
+    padding: 10px;
 }
